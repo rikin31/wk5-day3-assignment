@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+/*---------
+rgb(255,255,255)
+rgb(0,0,0)
+rgba(0,0,0,0.5)
+rgba(0,0,0,0.24)
+rgb(22, 34, 42)
+rgb(58, 96, 115)
+
+
+//Fonts:
+Bitter
+FontAwesome
+
+----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.header {
+  background-color: #3a6073;
+  color: white;
+  text-align: center;
+}
+.header h1 {
+  padding: 100px;
+}
+
+.grid {
+  display: inline-block;
+  margin: 25px;
+}
+.grid img {
+  width: 250px;
+  height: 250px;
+}
+.grid p {
+  font-size: 10px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+#app {
+  text-align: center;
+  margin: 0 auto;
+  margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+}
+
+button {
+  padding: 8px 20px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
